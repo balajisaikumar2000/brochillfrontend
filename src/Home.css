@@ -1,0 +1,85 @@
+.home {
+  width: 60%;
+  margin: 10% auto;
+  background-color: #dad7cd;
+  border-radius: 15px;
+  padding: 3%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.h11 {
+  width: max-content;
+  margin: 0 auto;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+input {
+  width: max-content;
+}
+
+button {
+  width: max-content;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* width: max-content; */
+  margin: 10px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+.fieldname {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: larger;
+  margin-bottom: 2px;
+}
+.submit {
+  background-color: #3a5a40;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: max-content;
+  margin-top: 38px;
+  text-align: center;
+  width: max-content;
+  padding: 10px;
+}
+.submit:hover {
+  background-color: #588157;
+}
+input {
+  width: 80%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+h4 {
+  width: max-content;
+  margin: 0 auto;
+  color: green;
+}
+@media screen and (max-width: 780px) {
+  .home {
+    width: 80%;
+    margin: 30% auto;
+  }
+  .h11 {
+    font-size: larger;
+  }
+}
