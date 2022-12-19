@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Images.css";
-import Loader from "./Loader";
+// import Loader from "./Loader";
 import axios from "axios";
 
 export default function Images() {
@@ -17,7 +17,7 @@ export default function Images() {
         console.log(data);
       })
       .catch((err) => console.log(err, "it has an error"));
-  }, []);
+  }, [data]);
   return (
     <div className="images">
       <div className="inputFielder">
