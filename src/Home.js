@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import "./Home.css";
 import axios from "axios";
 
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 export default function Home() {
   const inputRef = useRef(null);
